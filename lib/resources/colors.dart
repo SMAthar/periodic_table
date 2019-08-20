@@ -25,8 +25,8 @@ Color actnColor = Colors.greenAccent;
 Color actnBColor = Colors.green;
 
 // Boron Family
-Color boronColor = Colors.amberAccent;
-Color boronBColor = Colors.amber;
+Color boronColor = Colors.deepOrangeAccent;
+Color boronBColor = Colors.deepOrange;
 
 // Carbon Family 
 Color carbonColor = Colors.cyanAccent;

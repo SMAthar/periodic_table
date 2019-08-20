@@ -15,37 +15,31 @@ class CustomCard extends StatelessWidget {
     return Container(
       height: MediaQuery.of(context).size.width * 0.15,
       width: MediaQuery.of(context).size.width * 0.15,
+      color: mapColor(element),
       child: InkWell(
         onTap: (){
           Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context)=>DetailsPage(element: element,elementList:elementList)));
         },
-        child: Column(
+        child: Stack(
           children: <Widget>[
-            Expanded(
-              flex: 2,
+            Align(
+              // Atomic number label
+              alignment: Alignment.topLeft,
               child: Container(
-                decoration: BoxDecoration(
-                  color: mapColor(element),
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(5.0), topRight: Radius.circular(5.0))
-                ),
-                child: Center(
-                  child: Text(element.symbole),
-                ),
+                width: 25.0,
+                height: 20.0,
+                //color: mapBColor(element),
+                child: Center(child: Text(element.atomicNo.toString())),
               ),
             ),
-            Expanded(
-              flex: 1,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: mapBColor(element),
-                  borderRadius: BorderRadius.only(bottomLeft: Radius.circular(5.0), bottomRight: Radius.circular(5.0))
-                ),
-                child: Center(
-                  child: Text(
-                    element.atomicNo.toString()
-                  ),
+            Align(
+              alignment: Alignment.center,
+              child: Text(
+                element.symbole,
+                style: TextStyle(
+                  fontSize: 16
                 ),
               ),
             )
