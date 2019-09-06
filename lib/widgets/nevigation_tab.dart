@@ -57,12 +57,12 @@ class DammyNT extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           CircleAvatar(
-            backgroundColor: Colors.grey,
+            backgroundColor: Colors.grey[800],
           ),
           Container(
-            width: 150,
+            width: 100,
             height: 20,
-            color: Colors.grey,
+            color: Colors.grey[800],
           )
         ],
       ),

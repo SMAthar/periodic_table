@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:priodic_table/model/element.dart' as elem;
+import 'package:priodic_table/resources/color_convert.dart';
 import 'package:priodic_table/widgets/nevigation_tab.dart';
 
 class DetailsPage extends StatelessWidget {
@@ -14,18 +15,33 @@ class DetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        backgroundColor: Colors.black45,
-        title: Text(element.name),
-      ),
       body: ListView(
         children: <Widget>[
-          Image.asset(
-            element.imgPath,
-            fit: BoxFit.cover,
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height * 0.3,
+          Stack(
+            children: <Widget>[
+              Align(
+                alignment: Alignment.center,
+                child: Image.asset(
+                  element.imgPath,
+                  fit: BoxFit.cover,
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height * 0.3,
+                ),
+              ),
+              Positioned(
+                top: 150,
+                left: 0,
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: mapColor(element),
+                    borderRadius: BorderRadius.only(topRight: Radius.circular(10), bottomRight: Radius.circular(10))
+                  ),
+                  height: 25,
+                  width: 150,
+                  padding: EdgeInsets.all(10),
+                ),
+              ),
+            ],
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
