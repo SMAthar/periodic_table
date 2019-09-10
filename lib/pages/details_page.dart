@@ -38,7 +38,13 @@ class DetailsPage extends StatelessWidget {
                   ),
                   height: 25,
                   width: 150,
-                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      Text(element.atomicNo.toString()),
+                      Text(element.name)
+                    ],
+                  )
                 ),
               ),
             ],
@@ -49,7 +55,36 @@ class DetailsPage extends StatelessWidget {
               element.atomicNo == 1 ? DammyNT() : NavigationTab(element: elementList.elements[element.atomicNo - 2],elementList: elementList,),
               element.atomicNo == 118 ? DammyNT() : NavigationTab(element: elementList.elements[element.atomicNo],elementList: elementList,)
             ],
-          )
+          ),
+          Container(
+            color: Colors.black54,
+            padding: EdgeInsets.all(20.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 20),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Text("Name"),
+                      Text(element.name)
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 20),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Text("Symbole"),
+                      Text(element.symbole)
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       )
     );
