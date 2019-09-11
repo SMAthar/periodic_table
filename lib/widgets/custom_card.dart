@@ -13,15 +13,16 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(0.75),
+      padding: EdgeInsets.all(1),
       height: MediaQuery.of(context).size.width * 0.15,
       width: MediaQuery.of(context).size.width * 0.15,
       child: OutlineButton(
-        padding: EdgeInsets.only(top: 10),
+        padding: EdgeInsets.all(5),
         borderSide: BorderSide(
           color: mapBColor(element)
         ),
-        color: mapColor(element),
+        highlightedBorderColor: mapColor(element),
+        splashColor: mapColor(element),
         onPressed: (){
           Navigator.push(
             context,
@@ -34,11 +35,11 @@ class CustomCard extends StatelessWidget {
           children: <Widget>[
             Align(
               alignment: Alignment.topLeft,
-              child: Text(element.atomicNo.toString()),
+              child: Text(element.atomicNo.toString(),style: TextStyle(fontSize: 10)),
             ),
             Align(
               alignment: Alignment.center,
-              child: Text(element.symbole),
+              child: Text(element.symbole, style: TextStyle(fontSize: 20),),
             ),
           ],
         ),
