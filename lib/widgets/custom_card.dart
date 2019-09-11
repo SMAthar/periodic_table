@@ -17,6 +17,7 @@ class CustomCard extends StatelessWidget {
       height: MediaQuery.of(context).size.width * 0.15,
       width: MediaQuery.of(context).size.width * 0.15,
       child: OutlineButton(
+        padding: EdgeInsets.only(top: 10),
         borderSide: BorderSide(
           color: mapBColor(element)
         ),
