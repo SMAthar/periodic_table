@@ -581,7 +581,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d1,5s2",
-        "discovered_by":"Johan Gadolin"
+        "discovered_by":"Johan Gadolin",
+        "rel_atomic_mass":88.906
     },
     {
         "img_location":"assets/images/Zirconium.jpg",
@@ -595,7 +596,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d2,5s2",
-        "discovered_by":"Martin Heinrich Klaproth"
+        "discovered_by":"Martin Heinrich Klaproth",
+        "rel_atomic_mass":91.224
     },
     {
         "img_location":"assets/images/Niobium.jpg",
@@ -609,7 +611,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d3,5s2",
-        "discovered_by":"Charles Hatchett"
+        "discovered_by":"Charles Hatchett",
+        "rel_atomic_mass":92.906
     },
     {
         "img_location":"assets/images/Molybdenum.jpg",
@@ -623,7 +626,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d4,5s2",
-        "discovered_by":"Carl Wilhelm Scheele"
+        "discovered_by":"Carl Wilhelm Scheele",
+        "rel_atomic_mass":95.95
     },
     {
         "img_location":"assets/images/Technetium.jpg",
@@ -637,7 +641,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d5,5s2",
-        "discovered_by":""
+        "discovered_by":"Carlo Perrier and Emilio Segrè",
+        "rel_atomic_mass":98
     },
     {
         "img_location":"assets/images/Ruthenium.jpg",
@@ -651,7 +656,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d6,5s2",
-        "discovered_by":"Karl Ernst Claus"
+        "discovered_by":"Karl Ernst Claus",
+        "rel_atomic_mass":101.07
     },
     {
         "img_location":"assets/images/Rhodium.jpg",
@@ -665,7 +671,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d7,5s2",
-        "discovered_by":"William Hyde Wollaston"
+        "discovered_by":"William Hyde Wollaston",
+        "rel_atomic_mass":102.906
     },
     {
         "img_location":"assets/images/Palladium.jpg",
@@ -679,7 +686,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d8,5s2",
-        "discovered_by":"William Hyde Wollaston"
+        "discovered_by":"William Hyde Wollaston",
+        "rel_atomic_mass":106.42
     },
     {
         "img_location":"assets/images/Silver.jpg",
@@ -693,7 +701,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d9,5s2",
-        "discovered_by":"Known From Ancient Time"
+        "discovered_by":"Known From Ancient Time",
+        "rel_atomic_mass":107.868
     },
     {
         "img_location":"assets/images/Cadmium.jpg",
@@ -707,7 +716,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2",
-        "discovered_by":"Karl Samuel Leberecht Hermann"
+        "discovered_by":"Karl Samuel Leberecht Hermann",
+        "rel_atomic_mass":112.414
     },
     {
         "img_location":"assets/images/Indium.jpg",
@@ -721,7 +731,8 @@
         "family":"Earth Metals",
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2,5p1",
-        "discovered_by":"Ferdinand Reich"
+        "discovered_by":"Ferdinand Reich",
+        "rel_atomic_mass":114.818
     },
     {
         "img_location":"assets/images/Tin.jpg",
@@ -735,7 +746,8 @@
         "family":"Tetrals",
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2,5p2",
-        "discovered_by":"Known From Anceint Time"
+        "discovered_by":"Known From Anceint Time",
+        "rel_atomic_mass":118.710
     },
     {
         "img_location":"assets/images/Antimony.jpg",
@@ -749,7 +761,8 @@
         "family":"Pnictogens",
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2,5p3",
-        "discovered_by":"Known From Ancient Time"
+        "discovered_by":"Known From Ancient Time",
+        "rel_atomic_mass":121.760
     },
     {
         "img_location":"assets/images/Tellurium.jpg",
@@ -763,7 +776,8 @@
         "family":"Chalcogens",
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2,5p4",
-        "discovered_by":""
+        "discovered_by":"Franz-Joseph Müller von Reichenstein",
+        "rel_atomic_mass":127.60
     },
     {
         "img_location":"assets/images/Iodine.jpg",
@@ -777,7 +791,8 @@
         "family":"Halogens",
         "phase":"Solid",
         "e_config":"[Kr]4d10,5s2,5p5",
-        "discovered_by":"Bernard Courtois"
+        "discovered_by":"Bernard Courtois",
+        "rel_atomic_mass":126.904
     },
     {
         "img_location":"assets/images/Xenon.jpg",
@@ -791,7 +806,8 @@
         "family":"Noble Gases",
         "phase":"Gas",
         "e_config":"[Kr]4d10,5s2,5p6",
-        "discovered_by":"William Ramsay"
+        "discovered_by":"William Ramsay",
+        "rel_atomic_mass":131.293
     },
     {
         "img_location":"assets/images/Cesium.jpg",
@@ -805,7 +821,8 @@
         "family":"Alkali Metals",
         "phase":"Solid",
         "e_config":"[Xe]6s1",
-        "discovered_by":"Robert Bunsen"
+        "discovered_by":"Robert Bunsen",
+        "rel_atomic_mass":132.905
     },
     {
         "img_location":"assets/images/Barium.jpg",
@@ -819,7 +836,8 @@
         "family":"Alkaline Earth Metals",
         "phase":"Solid",
         "e_config":"[Xe]6s2",
-        "discovered_by":"Carl Wilhelm Scheele"
+        "discovered_by":"Carl Wilhelm Scheele",
+        "rel_atomic_mass":137.327
     },
     {
         "img_location":"assets/images/Lanthanum.jpg",
@@ -833,7 +851,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]5d1,6s2",
-        "discovered_by":"Carl Gustaf Mosander"
+        "discovered_by":"Carl Gustaf Mosander",
+        "rel_atomic_mass":138.905
     },
     {
         "img_location":"assets/images/Cerium.jpg",
@@ -847,7 +866,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f1,5d1,6s2",
-        "discovered_by":"Martin Heinrich Klaproth"
+        "discovered_by":"Martin Heinrich Klaproth",
+        "rel_atomic_mass":140.116
     },
     {
         "img_location":"assets/images/Praseodymium.jpg",
@@ -861,7 +881,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f3,6s2",
-        "discovered_by":"Carl Auer von Welsbach"
+        "discovered_by":"Carl Auer von Welsbach",
+        "rel_atomic_mass":140.908
     },
     {
         "img_location":"assets/images/Neodymium.jpg",
@@ -875,7 +896,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f4,6s2",
-        "discovered_by":"Carl Auer von Welsbach"
+        "discovered_by":"Carl Auer von Welsbach",
+        "rel_atomic_mass":144.242
     },
     {
         "img_location":"assets/images/Promethium.jpg",
@@ -889,7 +911,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f5,6s2",
-        "discovered_by":"Chien Shiung Wu"
+        "discovered_by":"Chien Shiung Wu",
+        "rel_atomic_mass":145
     },
     {
         "img_location":"assets/images/Samarium.jpg",
@@ -903,7 +926,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f6,6s2",
-        "discovered_by":"Lecoq de Boisbaudran"
+        "discovered_by":"Lecoq de Boisbaudran",
+        "rel_atomic_mass":150.36
     },
     {
         "img_location":"assets/images/Europium.jpg",
@@ -917,7 +941,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f7,6s2",
-        "discovered_by":""
+        "discovered_by":"Eugène-Anatole Demarçay",
+        "rel_atomic_mass":151.964
     },
     {
         "img_location":"assets/images/Gololinium.jpg",
@@ -931,7 +956,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f7,5d1,6s2",
-        "discovered_by":"Jean Charles Galissard de Marignac"
+        "discovered_by":"Jean Charles Galissard de Marignac",
+        "rel_atomic_mass":157.25
     },
     {
         "img_location":"assets/images/Terbium.jpg",
@@ -945,7 +971,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f9,6s2",
-        "discovered_by":"Carl Gustaf Mosander"
+        "discovered_by":"Carl Gustaf Mosander",
+        "rel_atomic_mass":158.925
     },
     {
         "img_location":"assets/images/Dysprosium.jpg",
@@ -959,7 +986,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f10,6s2",
-        "discovered_by":"Lecoq de Boisbaudran"
+        "discovered_by":"Lecoq de Boisbaudran",
+        "rel_atomic_mass":162.500
     },
     {
         "img_location":"assets/images/Holmium.jpg",
@@ -973,7 +1001,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f11,6s2",
-        "discovered_by":"Marc Delafontaine"
+        "discovered_by":"Marc Delafontaine",
+        "rel_atomic_mass":164.930
     },
     {
         "img_location":"assets/images/Erbium.jpg",
@@ -987,7 +1016,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f12,6s2",
-        "discovered_by":"Carl Gustaf Mosander"
+        "discovered_by":"Carl Gustaf Mosander",
+        "rel_atomic_mass":167.259
     },
     {
         "img_location":"assets/images/Thulium.jpg",
@@ -1001,7 +1031,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f13,6s2",
-        "discovered_by":"Per Teodor Cleve"
+        "discovered_by":"Per Teodor Cleve",
+        "rel_atomic_mass":168.934
     },
     {
         "img_location":"assets/images/Ytterbium.jpg",
@@ -1015,7 +1046,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6s2",
-        "discovered_by":"Jean Charles Galissard de Marignac"
+        "discovered_by":"Jean Charles Galissard de Marignac",
+        "rel_atomic_mass":173.045
     },
     {
         "img_location":"assets/images/Lutetium.jpg",
@@ -1029,7 +1061,8 @@
         "family":"Lanthanide",
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d1,6s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":174.967
     },
     {
         "img_location":"assets/images/Hafnium.jpg",
@@ -1043,7 +1076,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d2,6s2",
-        "discovered_by":"Dirk Coster"
+        "discovered_by":"Dirk Coster",
+        "rel_atomic_mass":178.49
     },
     {
         "img_location":"assets/images/Tantalum.jpg",
@@ -1057,7 +1091,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d3,6s2",
-        "discovered_by":"Anders Gustaf Ekeberg"
+        "discovered_by":"Anders Gustaf Ekeberg",
+        "rel_atomic_mass":180.948
     },
     {
         "img_location":"assets/images/Tungsten.jpg",
@@ -1071,7 +1106,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d4,6s2",
-        "discovered_by":"Carl Wilhelm Scheele"
+        "discovered_by":"Carl Wilhelm Scheele",
+        "rel_atomic_mass":183.84
     },
     {
         "img_location":"assets/images/Rhenium.jpg",
@@ -1085,7 +1121,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d5,6s2",
-        "discovered_by":"Masataka Ogawa"
+        "discovered_by":"Masataka Ogawa",
+        "rel_atomic_mass":186.207
     },
     {
         "img_location":"assets/images/Osmium.jpg",
@@ -1099,7 +1136,8 @@
         "family":null,
         "phase":"Soild",
         "e_config":"[Xe]4f14,5d6,6s2",
-        "discovered_by":"Smithson Tennant"
+        "discovered_by":"Smithson Tennant",
+        "rel_atomic_mass":190.23
     },
     {
         "img_location":"assets/images/Iridium.jpg",
@@ -1113,7 +1151,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d7,6s2",
-        "discovered_by":"Smithson Tennant"
+        "discovered_by":"Smithson Tennant",
+        "rel_atomic_mass":192.217
     },
     {
         "img_location":"assets/images/Platinum.jpg",
@@ -1127,7 +1166,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d8,6s2",
-        "discovered_by":"Antonio de Ulloa"
+        "discovered_by":"Antonio de Ulloa",
+        "rel_atomic_mass":195.084
     },
     {
         "img_location":"assets/images/Gold.jpg",
@@ -1141,7 +1181,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d9,6s2",
-        "discovered_by":"Known From Anceint Time"
+        "discovered_by":"Known From Anceint Time",
+        "rel_atomic_mass":196.967
     },
     {
         "img_location":"assets/images/Mercucry.jpg",
@@ -1155,7 +1196,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Xe]4f14,5d10,6s2",
-        "discovered_by":"Known From Anceint Time"
+        "discovered_by":"Known From Anceint Time",
+        "rel_atomic_mass":200.592
     },
     {
         "img_location":"assets/images/Thallium.jpg",
@@ -1169,7 +1211,8 @@
         "family":"Earth Metals",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6d10,6s2,6p1",
-        "discovered_by":"William Crookes"
+        "discovered_by":"William Crookes",
+        "rel_atomic_mass":204.38
     },
     {
         "img_location":"assets/images/Lead.jpg",
@@ -1183,7 +1226,8 @@
         "family":"Tetrals",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6d10,6s2,6p2",
-        "discovered_by":"Known From Ancient Time"
+        "discovered_by":"Known From Ancient Time",
+        "rel_atomic_mass":207.2
     },
     {
         "img_location":"assets/images/Bismuth.jpg",
@@ -1197,7 +1241,8 @@
         "family":"Pnictogens",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6d10,6s2,6p3",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":208.980
     },
     {
         "img_location":"assets/images/Polonium.jpg",
@@ -1211,7 +1256,8 @@
         "family":"Chalcogens",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6d10,6s2,6p4",
-        "discovered_by":"Pierre Curie"
+        "discovered_by":"Pierre Curie",
+        "rel_atomic_mass":209
     },
     {
         "img_location":"assets/images/Astatine.jpg",
@@ -1225,7 +1271,8 @@
         "family":"Halogens",
         "phase":"Solid",
         "e_config":"[Xe]4f14,6d10,6s2,6p5",
-        "discovered_by":"Dale R. Corson"
+        "discovered_by":"Dale R. Corson",
+        "rel_atomic_mass":210
     },
     {
         "img_location":"assets/images/Radon.jpg",
@@ -1239,7 +1286,8 @@
         "family":"Noble Gases",
         "phase":"Gas",
         "e_config":"[Xe]4f14,6d10,6s2,6p6",
-        "discovered_by":"Friedrich Ernst Dorn"
+        "discovered_by":"Friedrich Ernst Dorn",
+        "rel_atomic_mass":222
     },
     {
         "img_location":"assets/images/Francium.jpg",
@@ -1253,7 +1301,8 @@
         "family":"Alkali Metals",
         "phase":"Solid",
         "e_config":"[Rn]7s1",
-        "discovered_by":"Marguerite Perey"
+        "discovered_by":"Marguerite Perey",
+        "rel_atomic_mass":223
     },
     {
         "img_location":"assets/images/Radium.jpg",
@@ -1267,7 +1316,8 @@
         "family":"Alkaline Earth Metals",
         "phase":"Solid",
         "e_config":"[Rn]7s2",
-        "discovered_by":"Pierre Curie"
+        "discovered_by":"Pierre Curie",
+        "rel_atomic_mass":226
     },
     {
         "img_location":"assets/images/Actinium.jpg",
@@ -1281,7 +1331,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]6d1,7s2",
-        "discovered_by":"Friedrich Oskar Giesel"
+        "discovered_by":"Friedrich Oskar Giesel",
+        "rel_atomic_mass":227
     },
     {
         "img_location":"assets/images/Thorium.jpg",
@@ -1295,7 +1346,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]6d2,7s2",
-        "discovered_by":""
+        "discovered_by":"Jöns Jacob Berzelius",
+        "rel_atomic_mass":232.038
     },
     {
         "img_location":"assets/images/Protactinium.jpg",
@@ -1309,7 +1361,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f2,6d1,7s2",
-        "discovered_by":"William Crookes"
+        "discovered_by":"William Crookes",
+        "rel_atomic_mass":231.036
     },
     {
         "img_location":"assets/images/Uranium.jpg",
@@ -1323,7 +1376,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f3,6d1,7s2",
-        "discovered_by":"Martin Heinrich Klaproth"
+        "discovered_by":"Martin Heinrich Klaproth",
+        "rel_atomic_mass":238.029
     },
     {
         "img_location":"assets/images/Neptunium.jpg",
@@ -1337,7 +1391,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f4,6d1,7s2",
-        "discovered_by":"Edwin McMillan"
+        "discovered_by":"Edwin McMillan",
+        "rel_atomic_mass":237
     },
     {
         "img_location":"assets/images/Plutonium.jpg",
@@ -1351,7 +1406,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f6,7s2",
-        "discovered_by":"Glenn T. Seaborg"
+        "discovered_by":"Glenn T. Seaborg",
+        "rel_atomic_mass":244
     },
     {
         "img_location":"assets/images/Americum.jpg",
@@ -1365,7 +1421,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f7,7s2",
-        "discovered_by":"Glenn T. Seaborg"
+        "discovered_by":"Glenn T. Seaborg",
+        "rel_atomic_mass":243
     },
     {
         "img_location":"assets/images/Curium.jpg",
@@ -1379,7 +1436,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f7,6d1,7s2",
-        "discovered_by":"Glenn T. Seaborg"
+        "discovered_by":"Glenn T. Seaborg",
+        "rel_atomic_mass":247
     },
     {
         "img_location":"assets/images/Berkelium.jpg",
@@ -1393,7 +1451,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f9,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":247
     },
     {
         "img_location":"assets/images/Californium.jpg",
@@ -1407,7 +1466,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f10,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":251
     },
     {
         "img_location":"assets/images/Einstenium.jpg",
@@ -1421,7 +1481,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f11,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":252
     },
     {
         "img_location":"assets/images/Fermium.jpg",
@@ -1435,7 +1496,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f12,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":257
     },
     {
         "img_location":"assets/images/Mendelevium.jpg",
@@ -1449,7 +1511,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f13,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":258
     },
     {
         "img_location":"assets/images/Nobelium.jpg",
@@ -1463,7 +1526,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f14,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":259
     },
     {
         "img_location":"assets/images/Lawrencium.jpg",
@@ -1477,7 +1541,8 @@
         "family":"Actinide",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d1,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":262
     },
     {
         "img_location":"assets/images/Rutherfordium.jpg",
@@ -1491,7 +1556,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d2,7s2",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":267
     },
     {
         "img_location":"assets/images/Dubnium.jpg",
@@ -1505,7 +1571,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d3,7s2",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":268
     },
     {
         "img_location":"assets/images/Seaborgium.jpg",
@@ -1519,7 +1586,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d4,7s2",
-        "discovered_by":"Lawrence Berkeley National Laboratory"
+        "discovered_by":"Lawrence Berkeley National Laboratory",
+        "rel_atomic_mass":269
     },
     {
         "img_location":"assets/images/Bohrium.jpg",
@@ -1533,7 +1601,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d5,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":270
     },
     {
         "img_location":"assets/images/Hassium.jpg",
@@ -1547,7 +1616,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d6,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":269
     },
     {
         "img_location":"assets/images/Meitnerium.jpg",
@@ -1561,7 +1631,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d7,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":278
     },
     {
         "img_location":"assets/images/Darmstadtium.jpg",
@@ -1575,7 +1646,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d8,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":281
     },
     {
         "img_location":"assets/images/Roentgenium.jpg",
@@ -1589,7 +1661,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d9,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":280
     },
     {
         "img_location":"assets/images/Copernicium.jpg",
@@ -1603,7 +1676,8 @@
         "family":null,
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":285
     },
     {
         "img_location":"assets/images/Nihonium.jpg",
@@ -1617,7 +1691,8 @@
         "family":"Earth Metals",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p1",
-        "discovered_by":"RIKEN"
+        "discovered_by":"RIKEN",
+        "rel_atomic_mass":286
     },
     {
         "img_location":"assets/images/Flerovium.jpg",
@@ -1631,7 +1706,8 @@
         "family":"Tetrals",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p2",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":289
     },
     {
         "img_location":"assets/images/Moscovium.jpg",
@@ -1645,7 +1721,8 @@
         "family":"Pnictogens",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p3",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":289
     },
     {
         "img_location":"assets/images/Livermorium.jpg",
@@ -1659,7 +1736,8 @@
         "family":"Chalcogens",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p4",
-        "discovered_by":""
+        "discovered_by":"",
+        "rel_atomic_mass":293
     },
     {
         "img_location":"assets/images/Tennessine.jpg",
@@ -1673,7 +1751,8 @@
         "family":"Halogens",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p5",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":294
     },
     {
         "img_location":"assets/images/Oganesson.jpg",
@@ -1687,6 +1766,7 @@
         "family":"Noble Gases",
         "phase":"Solid",
         "e_config":"[Rn]5f14,6d10,7s2,7p6",
-        "discovered_by":"Joint Institute for Nuclear Research"
+        "discovered_by":"Joint Institute for Nuclear Research",
+        "rel_atomic_mass":294
     }
 ]

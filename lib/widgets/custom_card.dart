@@ -23,6 +23,7 @@ class CustomCard extends StatelessWidget {
         ),
         highlightedBorderColor: mapColor(element),
         splashColor: mapColor(element),
+        hoverColor: mapColor(element),
         onPressed: (){
           Navigator.push(
             context,

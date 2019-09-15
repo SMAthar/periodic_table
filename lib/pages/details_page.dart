@@ -194,6 +194,18 @@ class DetailsPage extends StatelessWidget {
                     ),)
                   ]
                 ),
+                TableRow(
+                  children: [
+                    TableCell(child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text("Relavtive Atomic Mass", style:detailItemStyle),
+                    ),),
+                    TableCell(child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(element.relAtomicMass.toString(), style:detailItemStyle),
+                    ),)
+                  ]
+                ),
               ],
             ),
           ),

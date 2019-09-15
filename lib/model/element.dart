@@ -11,6 +11,7 @@ class Element {
   String eConfig;
   String discoveredBy;
   String imgPath;
+  dynamic relAtomicMass;
 
   Element(
       {this.atomicNo,
@@ -24,7 +25,8 @@ class Element {
       this.phase,
       this.eConfig,
       this.discoveredBy,
-      this.imgPath
+      this.imgPath,
+      this.relAtomicMass
     });
 
   factory Element.fromJson(Map<String, dynamic> json) {
@@ -40,7 +42,8 @@ class Element {
       phase : json['phase'],
       eConfig : json['e_config'],
       discoveredBy : json['discovered_by'],
-      imgPath: json['img_location']);
+      imgPath: json['img_location'],
+      relAtomicMass: json['rel_atomic_mass']);
   }
 }
 
