@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:priodic_table/model/element.dart' as elem;
-import 'package:priodic_table/resources/colors.dart';
+import 'package:priodic_table/model/model.dart';
+import 'package:priodic_table/resources/resources.dart';
 
-Color mapColor(elem.Element element){
+Color mapColor(Elements element){
   if(element.atomicNo == 1){
     return hydgnColor;
   }
@@ -41,7 +41,7 @@ Color mapColor(elem.Element element){
   }
 }
 
-Color mapBColor(elem.Element element){
+Color mapBColor(Elements element){
   if(element.atomicNo == 1){
     return hydgnBColor;
   }

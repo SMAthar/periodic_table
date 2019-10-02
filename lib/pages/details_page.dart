@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:priodic_table/model/element.dart' as elem;
-import 'package:priodic_table/resources/color_convert.dart';
-import 'package:priodic_table/resources/text_style.dart';
-import 'package:priodic_table/widgets/nevigation_tab.dart';
+import 'package:priodic_table/model/model.dart';
+import 'package:priodic_table/resources/resources.dart';
+import 'package:priodic_table/widgets/widgets.dart';
 
 class DetailsPage extends StatelessWidget {
-  final elem.Element element;
-  final elem.ElementList elementList;
+  final Elements element;
+  final ElementList elementList;
 
   DetailsPage({
     this.element,

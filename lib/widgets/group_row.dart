@@ -5,6 +5,7 @@ class GroupRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
+        SizedBox(width: 8,),
         GroupTag(groupNum: 1,),
         GroupTag(groupNum: 2,),
         GroupTag(groupNum: 3,),
@@ -36,6 +37,7 @@ class GroupTag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.symmetric(horizontal: 1),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.025,
       child: Center(child: Text(groupNum.toString())),

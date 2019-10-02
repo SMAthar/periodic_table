@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:priodic_table/model/element.dart' as elem;
-import 'package:priodic_table/pages/details_page.dart';
-import 'package:priodic_table/resources/color_convert.dart';
+import 'package:priodic_table/model/model.dart';
+import 'package:priodic_table/pages/pages.dart';
+import 'package:priodic_table/resources/resources.dart';
 
 class CustomCard extends StatelessWidget {
 
-  final elem.Element element;
-  final elem.ElementList elementList;
+  final Elements element;
+  final ElementList elementList;
 
   CustomCard({this.element,this.elementList});
 
@@ -44,7 +44,6 @@ class CustomCard extends StatelessWidget {
             ),
           ],
         ),
-
       ),
     );
   }

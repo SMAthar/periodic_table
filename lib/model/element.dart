@@ -1,4 +1,4 @@
-class Element {
+class Elements {
   int atomicNo;
   String name;
   String symbole;
@@ -13,7 +13,7 @@ class Element {
   String imgPath;
   dynamic relAtomicMass;
 
-  Element(
+  Elements(
       {this.atomicNo,
       this.name,
       this.symbole,
@@ -29,8 +29,8 @@ class Element {
       this.relAtomicMass
     });
 
-  factory Element.fromJson(Map<String, dynamic> json) {
-    return Element(
+  factory Elements.fromJson(Map<String, dynamic> json) {
+    return Elements(
       atomicNo: json['atomic_no'],
       name : json['name'],
       symbole : json['symbole'],
@@ -49,13 +49,13 @@ class Element {
 
 
 class ElementList{
-  final List<Element> elements;
+  final List<Elements> elements;
 
   ElementList({this.elements});
 
   factory ElementList.fromJson(List<dynamic> json){
-    List<Element> elements = new List<Element>();
-    elements = json.map((i)=>Element.fromJson(i)).toList();
+    List<Elements> elements = new List<Elements>();
+    elements = json.map((i)=>Elements.fromJson(i)).toList();
 
     return new ElementList(
       elements: elements

@@ -1,7 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/services.dart';
-import 'package:priodic_table/model/element.dart';
+import 'package:priodic_table/model/model.dart';
 
 Future<String> _loadElementAssets() async{
   return await rootBundle.loadString("data/table.json");
